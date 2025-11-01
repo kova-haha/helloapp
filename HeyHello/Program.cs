@@ -2,6 +2,11 @@
 
 public static class Hello
 {
+    static void GreetBlack()
+    {
+        Console.WriteLine("hello black");
+    }
+
     static void GreetWhite()
     {
         Console.WriteLine("hello white");
@@ -10,6 +15,10 @@ public static class Hello
     static void Main()
     {
         Console.WriteLine("hello everyone");
+
+        GreetBlack();
+
+        GreetWhite();
     }
 }
 
